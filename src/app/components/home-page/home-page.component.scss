@@ -1,0 +1,91 @@
+
+[class*="col-"] {
+  float: left;
+}
+
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+  }
+
+  .btntextstyle{
+    font-size:24px;
+    color: aliceblue;
+     margin-right: 2.5%;
+     font-family: 'Lemonada', cursive;
+  }
+
+  .love_icon{
+    color: red;
+    font-size: 35px;
+    margin-right:10px;
+  }
+
+  .help_icon{
+    font-size:20px;
+    color:rgb(94, 43, 189);
+    margin-left: 10px; 
+    padding: 7px;
+  }
+
+.preInputText{
+  font-family: 'Sansita Swashed', cursive;
+   font-size: 30px;
+    color: rgb(73, 116, 116);
+}
+textarea{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+textarea::placeholder{
+  font-size: 15px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+button{
+  outline: none;
+  font-family: 'PT Serif', serif;
+  border-radius: 20px;
+  border: none;
+  background-color: #0ca6bf;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  box-shadow: 0px 0px 9px #d7d7d7;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.link_cleartext:hover{
+  background-color: #ff4d4d;
+}
+.btnclass1:hover{
+  color: aliceblue;
+}
+.btnclass2:hover{
+  color: aliceblue;
+  background-color: #efb300;
+}
+
+.righttext{
+  font-weight:bold; margin-right: 3%; 
+  text-align: right; color: brown;
+  margin-top: 15px;
+  font-size: 1.7vw;
+  text-align: center;
+}
+.lefttext{
+  font-weight:bold;color: brown;margin-top: 15px;
+}

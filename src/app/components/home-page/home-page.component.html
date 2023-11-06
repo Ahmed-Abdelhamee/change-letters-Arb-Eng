@@ -1,0 +1,26 @@
+
+<div class="container thechangecontent " >
+    <!-- <h4 class="lefttext col-12" >* Note the conversion from Arabic to English, the letters  لا , لآ , لأ replace to gH , gN , gh  and it is hard to reach letters b,B,G instead of them  </h4> -->
+    <!-- form code -->
+    <form action="/action_page.php">
+      <div class="form-group col-12">
+        <label for="comment1" class="preInputText">Put your paragraph here :</label>  
+        <textarea class="form-control col-12" placeholder=" Put your text here "  rows="7" id="comment1" name="text" #PreChange></textarea>
+      </div>
+    </form>
+    <div class="col-12" >
+      <div class="col-12 btns" >
+        <button class="btn btn-outline-dark btnclass1 " (click)="changefun(PreChange,AfterChange);"> ENG  ==>>  عربي</button>
+        <button class="btn btn-outline-warning btnclass2 " (click)="changefun2(PreChange,AfterChange);"> عربي ==>> ENG </button>
+        <button class="link_cleartext" (click)='Clear_Texts(PreChange,AfterChange)'> Clear_Texts  </button>
+      </div>
+    </div>
+    <div class="col-12">
+      <textarea class="form-control col-12" #AfterChange  placeholder=" the Result of changing letters " rows="7" id="comment2" name="text"></textarea>
+    </div>
+
+    <h4 class="righttext col-12" > gH , gN , gh لاحظ  في التحويل من عربي الي انجليزي ستجد الحروف  لا , لآ , لأ .  يتحولوا الي  </h4>
+    <h4 class="righttext col-12" > بدلا منهم  b,B,G  وصعوبة ايجاد حروف </h4>
+
+  </div>
+
